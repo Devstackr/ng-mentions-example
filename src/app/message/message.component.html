@@ -1,0 +1,8 @@
+<div class="root">
+
+  <span *ngFor="let word of messageWords" style="white-space:pre">
+    <a *ngIf="word.link" [routerLink]="word.link">{{ word.text }}</a>
+    <span *ngIf="!word.link">{{ word.text }}</span>
+  </span>
+  
+</div>

@@ -1,0 +1,20 @@
+<div class="centered-content">
+
+
+
+  <div class="main-box">
+    <a href="https://www.youtube.com/channel/UCbwsS1m4Hib6R-9F1alus_A" target="_blank"><img src="../assets/Dev_Banner.png" style="border-radius:5px;"></a>
+
+    <div class="chat-box">
+
+      <div class="messages">
+        <p style="margin-bottom: 8px;"><strong>Hi!</strong> &nbsp;Try mentioning something below using <strong>@</strong></p>
+        <app-message *ngFor="let message of messages" [message]="message"></app-message>
+      </div>
+
+      <app-message-input (sendMessage)="sendMessage($event)"></app-message-input>
+
+    </div>
+
+  </div>
+</div>
