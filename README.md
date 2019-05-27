@@ -1,9 +1,9 @@
 # @Mentions parser and autocomplete system
 
 ![Devstackr](./src/assets/Banner.png)
-![Devstackr](./src/assets/Mentions_Capture_1.png)
-![Devstackr](./src/assets/Mentions_Capture_2.png)
-![Devstackr](./src/assets/Mentions_Capture_3.png)
+![Devstackr](./src/assets/Mentions_Capture_1.PNG)
+![Devstackr](./src/assets/Mentions_Capture_2.PNG)
+![Devstackr](./src/assets/Mentions_Capture_3.PNG)
 
 [![Devstackr](./src/assets/Dev_Banner.png)](https://www.youtube.com/channel/UCbwsS1m4Hib6R-9F1alus_A)
 
