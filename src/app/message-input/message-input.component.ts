@@ -208,10 +208,6 @@ export class MessageInputComponent implements OnInit {
    * @param query the query to use when filtering
    */
   filterUsernames(query: string) {
-    // In reality, these values will be retrieved via a backend
-    // Searching (potentially) many thousands of users in the client is a bad idea
-
-    // For demo purposes we will use some basic JS
     this.filteredUsernames = this.usernames.filter(username => {
       return ("@" + username.toLowerCase()).startsWith(query);
     });
@@ -332,6 +328,7 @@ export class MessageInputComponent implements OnInit {
   hideSuggestionsBox() {
     this.suggestionsBoxVisible = false;
     this.selected = null;
+    this.filteredUsernames = [];
   }
 }
 
